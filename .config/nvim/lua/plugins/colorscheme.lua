@@ -63,7 +63,8 @@ return {
           fg = "#ffe600",
         }
         highlights["PreProc"] = {
-          fg = "#32cd32",
+          -- fg = "#32cd32",
+          fg = "#ffce7b",
         }
 
         highlights["@function.call"] = {
@@ -100,7 +101,7 @@ return {
           fg = "#1e90ff",
         }
         highlights["@lsp.type.enumMember"] = {
-          fg = "#87cefa",
+          fg = "#cd5c5c",
         }
         highlights["@string.documentation"] = {
           fg = "#1d953f",
