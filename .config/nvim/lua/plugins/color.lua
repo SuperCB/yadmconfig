@@ -56,8 +56,11 @@ return {
         highlights["@variable"] = {
           fg = "#afdfe4",
         }
+        highlights["Special"] = {
+          fg = "#00ae9d",
+        }
         highlights["@variable.parameter.python"] = {
-          fg = "#afdfe4",
+          fg = "#ffce7b",
         }
         highlights["@variable.parameter.rust"] = {
           fg = "#ffe600",
@@ -119,7 +122,7 @@ return {
           fg = "#ff69b4",
         }
         highlights["@namespace"] = {
-          fg = "#ff00ff",
+          fg = "#ff1493",
         }
         highlights["@lsp.type.namespace"] = {
           fg = "#ff1493",
@@ -137,7 +140,7 @@ return {
           fg = "#ff1493",
         }
         highlights["@lsp.type.operator.cpp"] = {
-          fg = "#ffd700",
+          fg = "#ff7f50",
         }
         highlights["@operator.cpp"] = {
           fg = "#ff7f50",
@@ -156,6 +159,9 @@ return {
         }
         highlights["@lsp.type.method"] = {
           fg = "#da70d6",
+        }
+        highlights["@variable.member"] = {
+          fg = "#00ffff",
         }
         highlights["@lsp.type.struct.rust"] = {
           fg = "#f26522",
@@ -202,6 +208,9 @@ return {
         highlights["@lsp.typemod.function.defaultLibrary"] = {
           fg = "#ffe4e1",
         }
+        highlights["@lsp.typemod.method.defaultLibrary"] = {
+          fg = "#da70d6",
+        }
         highlights["@lsp.typemod.class.defaultLibrary"] = {
           fg = "#ffce7b",
         }
@@ -230,14 +239,17 @@ return {
         highlights["@keyword.return.cpp"] = {
           fg = "#1e90ff",
         }
-        highlights["Special"] = {
-          fg = "#00ced1",
-        }
         highlights["@type.qualifier"] = {
           fg = "#00ced1",
         }
+        highlights["@type.builtin.python"] = {
+          fg = "#7bbfea",
+        }
         highlights["@keyword.return.python"] = {
           fg = "#FFB6C1",
+        }
+        highlights["@keyword.directive.cuda"] = {
+          fg = "#00ae9d",
         }
         highlights["@keyword.function.python"] = {
           fg = "#009ad6",
@@ -273,19 +285,14 @@ return {
         highlights["@keyword.operator"] = {
           fg = "#48d1cc",
         }
+        highlights["@keyword.operator.python"] = {
+          fg = "#ffc0cb",
+        }
         highlights.Keyword = {
           fg = "#FF99CC",
-
-          style = {
-            italic = false,
-          },
         }
         highlights["@constructor"] = {
           fg = "#FF6666",
-
-          style = {
-            italic = false,
-          },
         }
         highlights.WinSeparator = {
           bold = true,
@@ -293,19 +300,21 @@ return {
         }
 
         highlights.IlluminatedWord = {
-
-          fg = "#ffa07a",
-          -- fg = "#ffd700",
-          -- bg = "#fcf16e",
+          bg = "#ffd700",
+          fg = "#4169e1",
         }
         -- --
-        -- highlights.IlluminatedWordText = {
-        --   fg = "#ffd700",
-        --   bg = "#fcf16e",
-        -- }
-        -- highlights.IlluminatedWordRead = {
-        --   fg = "#ffd700",
-        --   bg = "#fcf16e",
+        highlights.IlluminatedWordText = {
+          bg = "#ffd700",
+          fg = "#4169e1",
+        }
+        highlights.IlluminatedWordRead = {
+          bg = "#ffd700",
+          fg = "#4169e1",
+        }
+        -- highlights.IlluminatedWordWrite = {
+        --   bg = "#ffd700",
+        --   fg = "#4169e1",
         -- }
       end,
     },

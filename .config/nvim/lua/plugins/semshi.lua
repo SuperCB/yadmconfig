@@ -23,6 +23,7 @@ return {
             highlight! link semshiParameterUnused DiagnosticUnnecessary
             highlight! link semshiBuiltin @function.builtin
             highlight! link semshiAttribute @attribute
+            highlight! link semshiFree @attribute
             highlight! link semshiSelf @lsp.type.selfKeyword
             highlight! link semshiUnresolved @lsp.type.unresolvedReference
             ]])
