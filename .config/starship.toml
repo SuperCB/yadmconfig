@@ -93,7 +93,7 @@ symbol = "🐋"
 format = '[$symbol \[$name\]]($style) '
 
 [python]
-format = 'via [${symbol}${pyenv_prefix}(python ${version} )(\($virtualenv\) )]($style)'
+format = 'via [${symbol}${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'
 style = 'fg:#FFB6C1'
 symbol = '👾 '
 # pyenv_version_name = true
