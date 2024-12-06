@@ -56,6 +56,9 @@ return {
         highlights["@variable"] = {
           fg = "#afdfe4",
         }
+        highlights["DiagnosticUnnecessary"] = {
+          fg = "#2a5caa",
+        }
         highlights["Special"] = {
           fg = "#00ae9d",
         }
@@ -214,6 +217,9 @@ return {
         highlights["@lsp.typemod.class.defaultLibrary"] = {
           fg = "#ffce7b",
         }
+        highlights["@number.cpp"] = {
+          fg = "#fcaf17",
+        }
         highlights["@lsp.typemod.struct.defaultLibrary.rust"] = {
           fg = "#ffce7b",
         }
@@ -300,17 +306,14 @@ return {
         }
 
         highlights.IlluminatedWord = {
-          bg = "#ffd700",
-          fg = "#4169e1",
+          fg = "#ffd700",
         }
         -- --
-        highlights.IlluminatedWordText = {
-          bg = "#ffd700",
-          fg = "#4169e1",
-        }
+        -- highlights.IlluminatedWordText = {
+        --   fg = "#ffd700",
+        -- }
         highlights.IlluminatedWordRead = {
-          bg = "#ffd700",
-          fg = "#4169e1",
+          fg = "#ffd700",
         }
         -- highlights.IlluminatedWordWrite = {
         --   bg = "#ffd700",
