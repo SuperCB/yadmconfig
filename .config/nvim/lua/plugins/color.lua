@@ -285,6 +285,9 @@ return {
         highlights["rainbowcol1"] = {
           fg = "#9acd39",
         }
+        highlights["@module.python"] = {
+          fg = "#ffe4b5",
+        }
         highlights["rainbowcol7"] = {
           fg = "#33a3dc",
         }
