@@ -23,7 +23,7 @@ return {
             highlight! link semshiParameterUnused DiagnosticUnnecessary
             highlight! link semshiBuiltin @function.builtin
             highlight! link semshiAttribute @attribute
-            highlight! link semshiFree @attribute
+            highlight! semshiFree ctermfg=218 guifg=#ffafd7
             highlight! link semshiSelf @lsp.type.selfKeyword
             highlight! link semshiUnresolved @lsp.type.unresolvedReference
             ]])
