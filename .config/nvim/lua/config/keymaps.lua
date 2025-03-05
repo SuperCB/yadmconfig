@@ -28,7 +28,7 @@ map("n", "k", "<Plug>(accelerated_jk_gk)")
 map("n", "<space>tn", ":<C-u>lua require('tint').toggle()<cr>", { desc = "Tint toggle", silent = true, nowait = true })
 map(
   "n",
-  "<space>nv",
+  "<space>ov",
   ":<C-u>lua require('nvim-navbuddy').open()<cr>",
   { desc = "Toggle nvim-navbuddy", silent = true, nowait = true }
 )
